@@ -7,11 +7,11 @@ What is the largest prime factor of the number 600851475143 ?
 num = 600851475143 
 i = 2
 while(num % i == 0):
-	num /= i
+    num /= i
 i += 1
 while(num != 1):
-	while(num % i == 0):
-		num /= i
-#		print ( str(num) + ", " + str(i))
-	i += 2
+    while(num % i == 0):
+        num /= i
+        print ( str(num) + ", " + str(i))
+    i += 2
 print (i-2)
