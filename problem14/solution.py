@@ -50,7 +50,7 @@ def find_chain_length(i):
 # find_chain_length(10)
 # print(chain_lengths.items())
 # find_chain_length(13)
-find_chain_length(81906)
+find_chain_length(6)
 print(chain_lengths.items())
 print(max_length)
 print(max(chain_lengths.values()))
